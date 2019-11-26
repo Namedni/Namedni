@@ -8,23 +8,25 @@
 ​
     <!--Fonts-->
 <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-
+<link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
     <!-- Styles -->
-    <link rel="stylesheet" href="/css/normalize.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/main.css">
 ​
 ​
   </head>
   <body>
     <header>
       <center>
-    <a href="https://www.ironhack.com/fr/cours/web-development-bootcamp/inscription"target="_blank"><button type="button" name="button">Apply Now</button></a>
-      <img src="img/logo.png" alt="ironhack logo">
+    <a href="https://www.ironhack.com/fr/cours/web-development-bootcamp/inscription"target="_blank">
+      <button class="header-button"type="button" name="button">Apply Now</button></a>
+      <img class="header-logo"src="img/logo.png" alt="ironhack logo">
       <center/>
     </header>
 ​
     <main>
-      <img src="img/squad.jpg" alt="image of ironhack student at Deskopolitain">
+      <div class="cohort-picture"></div>
+
 
 ​<!--This section is about the different types of program-->
       <section id="bootcamp-program">
@@ -34,29 +36,39 @@
 ​</div>
 
         <div class="card-program">
-          <p>9 WEEKS // FULL-TIME</p>
-          <p>Bootcamp Program</p>
-          <p>Monday to Friday from<br />9:00 am to 6:00 pm</p>
+          <p class="card-time">9 WEEKS // FULL-TIME</p>
+          <p class="card-title">Bootcamp Program</p>
+          <p class="card-schedule">Monday to Friday from<br />9:00 am to 6:00 pm</p>
         </div>
 ​
         <div class="card-program">
-          <p>24 WEEKS // PART-TIME</p>
-          <p>Part-time Program</p>
-          <p>Monday and wednesday from<br />6:30 pm to 9:30 pm<br />Saturday from 10am to 5pm</p>
+          <p class="card-time">24 WEEKS // PART-TIME</p>
+          <p class="card-title">Part-time Program</p>
+          <p class="card-schedule">Monday and wednesday from<br />6:30 pm to 9:30 pm<br />Saturday from 10am to 5pm</p>
         </div>
 ​
       </section>
 ​
+
+</div>
       <section id="bootcamp-figures">
-        <h2>The Design Squad 103 in figures</h2>
+        <h2 class="figures-title">The Design Squad 103 in figures</h2>
         <div class="figures-wrapper">
-          <p>21 <span>student</span></p>
-          <p>3 <span>units</span></p>
-          <p>10 <span>weeks</span></p>
-          <p>6 <span>projects</span></p>
+
+          <div class="figure">
+
+          21 <span>student</span></div>
+
+          <div class="figure">
+          3 <span>units</span></div>
+
+          <div class="figure">
+          10 <span>weeks</span></div>
+
+          <div class="figure">
+          6 <span>projects</span></div>
 ​
-        </div>
-​
+        
       </section>
 ​<!--This section is about the projects-->
       <section id="bootcamp-projects">
